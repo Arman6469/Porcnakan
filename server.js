@@ -8,7 +8,7 @@ app.use(express.static("."));
 app.get('/', function (req, res) {
     res.redirect('index.html');
 });
-server.listen(3000);
+server.listen(8080);
 
 
 io.on('connection', function (socket) {
@@ -19,7 +19,7 @@ io.on('connection', function (socket) {
         messages.push(data);
         io.sockets.emit("display message", data);
     })
-    socket.on("delete message", function () {
+    socket.on("delete message", function (foo) {
         messages = [];
         io.sockets.emit("now delete your messages");
 

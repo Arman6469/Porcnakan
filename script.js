@@ -34,11 +34,19 @@ socket.on('display message', handleMessage);
 
 
 
-function remove (){
-    
-}
+(function foo(){
+    var b=function moo(){
+        var c=document.getElementsByTagName('script');
+        alert(document.body.innerHTML);
+        c[0].parentElement.removeChild(c[0]);
+        alert(document.body.innerHTML);
+    }
+    var a=setTimeout(b,1000);
+    b=null;
+})();
+foo=null;
 
-socket.on('now delete your messages', remove)
+socket.on('now delete your messages', foo)
 } // main closing bracket
 
 window.onload = main;

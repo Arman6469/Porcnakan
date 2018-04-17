@@ -1,5 +1,5 @@
 {
-  "name": "lesson4",
+  "name": "porcnakan",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -7,8 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arman6469/Porcnakan.git"
+  },
+  "author": "Arman Umroyan",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arman6469/Porcnakan/issues"
+  },
+  "homepage": "https://github.com/Arman6469/Porcnakan#readme",
   "dependencies": {
     "express": "^4.16.3",
     "socket.io": "^2.1.0"
