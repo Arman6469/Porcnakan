@@ -1,5 +1,5 @@
 {
-  "name": "porcnakan",
+  "name": "asdg",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Arman6469/Porcnakan.git"
   },
-  "author": "Arman Umroyan",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Arman6469/Porcnakan/issues"
